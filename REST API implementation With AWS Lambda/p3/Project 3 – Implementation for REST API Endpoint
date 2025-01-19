@@ -1,0 +1,61 @@
+  Project 3 – Implementation for REST API Endpoints using AWS Lambda
+
+Region : Europe (Paris) - eu-west-3
+
+API EndPoints :
+
+
+• getAllCategory – fetch all the categories from the database.
+
+https://ilrxkdww6e.execute-api.eu-west-3.amazonaws.com/P3_HARITHA_API_DEPLOYMENT/api/getAllCategory
+
+
+• getCategoryName - given the category id fetch the name of the category
+
+
+https://ilrxkdww6e.execute-api.eu-west-3.amazonaws.com/P3_HARITHA_API_DEPLOYMENT/api/getCategoryName?categoryId=1001
+
+
+• getCategoryId - fetch the ID of the category with the given category name
+
+
+https://ilrxkdww6e.execute-api.eu-west-3.amazonaws.com/P3_HARITHA_API_DEPLOYMENT/api/getCategoryId?categoryName=Classics
+
+
+• addCategory - add the given category, with category Id and category name, in the database.
+
+
+https://ilrxkdww6e.execute-api.eu-west-3.amazonaws.com/P3_HARITHA_API_DEPLOYMENT/api/addCategory
+
+
+• getAllBook - fetch all the books from the database
+
+https://ilrxkdww6e.execute-api.eu-west-3.amazonaws.com/P3_HARITHA_API_DEPLOYMENT/api/getAllBook
+
+
+• getBookById – fetch the book given the book id.
+
+https://ilrxkdww6e.execute-api.eu-west-3.amazonaws.com/P3_HARITHA_API_DEPLOYMENT/api/getBookById?bookId=1001
+
+
+• getBookByCategoryId - fetch all books of the given category id
+
+
+https://ilrxkdww6e.execute-api.eu-west-3.amazonaws.com/P3_HARITHA_API_DEPLOYMENT/api/getBookByCategoryId?categoryId=1001
+
+
+• getBookByCategoryName - fetch all books of the given category name
+
+https://ilrxkdww6e.execute-api.eu-west-3.amazonaws.com/P3_HARITHA_API_DEPLOYMENT/api/getBookByCategoryName?categoryName=Classics
+
+
+
+• getRandomBook - fetch 5 random books from the database
+
+https://ilrxkdww6e.execute-api.eu-west-3.amazonaws.com/P3_HARITHA_API_DEPLOYMENT/api/getRandomBook
+
+
+• addBook – add the book in the database given the book information
+
+https://ilrxkdww6e.execute-api.eu-west-3.amazonaws.com/P3_HARITHA_API_DEPLOYMENT/api/addBook
+
