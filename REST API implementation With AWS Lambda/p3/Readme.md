@@ -6,7 +6,6 @@ The project involves developing a set of REST API endpoints using AWS Lambda to 
 # Tools and Technologies Used
 AWS Lambda: For executing serverless functions. Amazon API Gateway: To expose and manage the APIs. Amazon RDS (MySQL): As the database backend for storing books and categories. IAM: For access management and secure authentication. Gson and JSON Libraries: For data handling and parsing. Java JDBC: For database interactions.
 
-
 # Steps Taken
 1. Database Setup:
 Configured an Amazon RDS instance for MySQL with a custom database and tables for Book and Category.
